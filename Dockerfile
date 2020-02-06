@@ -31,4 +31,4 @@ VOLUME ["/world", "/tshock/ServerPlugins"]
 WORKDIR /tshock
 
 # run the server
-ENTRYPOINT ["mono", "--server", "--gc=sgen", "-O=all", "TerrariaServer.exe", "-confgpath", "/config", "-worldpath", "/world", "-logpath", "/logs", "-port", "7777", "-maxplayers", "8", "-world", "/world/ExpertWorld.wld", "-config", "server.cfg"]
+ENTRYPOINT ["mono", "--server", "--gc=sgen", "-O=all", "TerrariaServer.exe", "-confgpath", "/config", "-worldpath", "/world", "-logpath", "/logs", "-port", "7777", "-maxplayers", "8", "-world", "/world/server.wld", "-config", "server.cfg"]
